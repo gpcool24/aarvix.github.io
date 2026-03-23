@@ -3,93 +3,322 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aarvix Technologies</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Aarvix Technologies | Platform Sahayak</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Aarvix Technologies</h1>
-        <nav>
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="navbar-brand">⚡ AARVIX</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#product" class="nav-link">Platform Sahayak</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero">
-        <h2>Welcome to Aarvix Technologies</h2>
-        <p>Your partner in innovative solutions.</p>
-        <a href="#contact" class="btn">Get in Touch</a>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Build the Future with AARVIX</h1>
+            <p>Innovative technology solutions for India's growing businesses. WhatsApp-first automation for MSMEs.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Start Your Journey</a>
+                <a href="#product" class="btn btn-secondary">Explore Platform Sahayak</a>
+            </div>
+        </div>
     </section>
 
-    <section id="services">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About AARVIX Technologies</h2>
+        <div class="about-grid">
+            <div class="card">
+                <h3>🎯 Our Mission</h3>
+                <p>Empower India's MSMEs and growing businesses with cutting-edge, affordable technology solutions.</p>
+            </div>
+            <div class="card">
+                <h3>🚀 Our Vision</h3>
+                <p>A world where technology is accessible, intuitive, and deeply integrated into how small businesses operate.</p>
+            </div>
+            <div class="card">
+                <h3>💎 Our Values</h3>
+                <p>Innovation, reliability, transparency, and customer-first thinking.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Our Approach</h3>
+                <p>Outcome-based product design. We measure success by ROI delivered—cash recovered, time saved, efficiency gained.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
         <h2>Our Services</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Mobile App Development</li>
-            <li>Cloud Solutions</li>
-            <li>Digital Marketing</li>
-        </ul>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>Modern, responsive websites and web applications built with scalable architecture.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Mobile App Development</h3>
+                <p>Native and cross-platform mobile solutions that deliver seamless user experiences.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">☁️</div>
+                <h3>Cloud Solutions</h3>
+                <p>Scalable infrastructure, DevOps optimization, and cloud migration services.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>User-centered design strategy and beautiful interfaces from wireframes to implementation.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Software Consulting</h3>
+                <p>Strategic technology guidance for scaling businesses. Architecture design and growth planning.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🤖</div>
+                <h3>AI & Automation</h3>
+                <p>Intelligent automation, chatbots, and AI-powered solutions including WhatsApp-first automation.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="products">
-        <h2>Our Products</h2>
-        <ul>
-            <li>Product 1</li>
-            <li>Product 2</li>
-            <li>Product 3</li>
-        </ul>
+    <!-- Platform Sahayak Section -->
+    <section id="product" class="product">
+        <h2>Platform Sahayak by AARVIX</h2>
+        <p class="subtitle">The WhatsApp-First Automation Solution for India's MSMEs</p>
+        <div class="product-content">
+            <div class="product-text">
+                <h3>The Problem</h3>
+                <p>India's 6 crore MSMEs face two crushing pain points:</p>
+                <ul>
+                    <li><strong>Leaky Bucket:</strong> Unpredictable cash flow due to scattered invoicing and late collections.</li>
+                    <li><strong>Data Entry Nightmare:</strong> Manual bookkeeping that consumes hours every week, is error-prone, and kills productivity.</li>
+                </ul>
+                <h3>The Solution</h3>
+                <p>Instead of forcing business owners to learn another dashboard, Platform Sahayak works where they already work: <strong>inside WhatsApp.</strong></p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>✓ WhatsApp-First Automation</li>
+                    <li>✓ Recover Cash (10-20% DSO reduction)</li>
+                    <li>✓ Save Time (eliminate manual data entry)</li>
+                    <li>✓ Outcome-Based Pricing</li>
+                    <li>✓ 1-Click Invoice Discounting (Pro tier)</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Request a Demo</a>
+            </div>
+        </div>
     </section>
 
-    <section id="portfolio">
-        <h2>Our Portfolio</h2>
-        <div class="portfolio-item">Project 1</div>
-        <div class="portfolio-item">Project 2</div>
-        <div class="portfolio-item">Project 3</div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="saas">SaaS</button>
+            <button class="filter-btn" data-filter="automation">Automation</button>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-img">Enterprise Portal</div>
+                <h3>Enterprise Corporate Portal</h3>
+                <p>Multi-tenant web application for enterprise client management and analytics.</p>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-img">E-Commerce</div>
+                <h3>E-Commerce Platform</h3>
+                <p>High-performance marketplace with real-time inventory and payment processing.</p>
+            </div>
+            <div class="portfolio-item" data-category="mobile">
+                <div class="portfolio-img">Fintech App</div>
+                <h3>Fintech Mobile App</h3>
+                <p>Secure banking app with biometric authentication across iOS & Android.</p>
+            </div>
+            <div class="portfolio-item" data-category="mobile">
+                <div class="portfolio-img">Logistics</div>
+                <h3>Real-Time Logistics Tracker</h3>
+                <p>GPS-enabled app for supply chain visibility and delivery optimization.</p>
+            </div>
+            <div class="portfolio-item" data-category="saas">
+                <div class="portfolio-img">Analytics</div>
+                <h3>Advanced Analytics Dashboard</h3>
+                <p>Real-time SaaS analytics platform with custom reporting and API integrations.</p>
+            </div>
+            <div class="portfolio-item" data-category="saas">
+                <div class="portfolio-img">CRM</div>
+                <h3>Enterprise CRM Platform</h3>
+                <p>Full-featured customer relationship management system with automation and AI scoring.</p>
+            </div>
+            <div class="portfolio-item" data-category="automation">
+                <div class="portfolio-img">Chatbot</div>
+                <h3>Intelligent WhatsApp Chatbot</h3>
+                <p>AI-powered chatbot handling customer queries, order processing, and support automation.</p>
+            </div>
+            <div class="portfolio-item" data-category="automation">
+                <div class="portfolio-img">Workflow</div>
+                <h3>Business Workflow Automation</h3>
+                <p>No-code automation for invoice processing, payment reconciliation, and reporting.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="testimonials">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
         <h2>What Our Clients Say</h2>
-        <blockquote>
-            <p>"Aarvix Technologies transformed our business!" - Client A</p>
-        </blockquote>
-        <blockquote>
-            <p>"Incredible service and support!" - Client B</p>
-        </blockquote>
+        <div class="carousel" id="carousel">
+            <div class="testimonial-item active">
+                <p>"Aarvix transformed how we manage invoices. Platform Sahayak recovered ₹8 lakhs in overdue payments within 3 months."</p>
+                <strong>Rajesh Patel, MD - Precision Engineering Solutions</strong>
+            </div>
+            <div class="testimonial-item">
+                <p>"We needed a scalable e-commerce platform. Aarvix delivered in 12 weeks with zero downtime migrations."</p>
+                <strong>Anjali Sharma, CEO - TrendBazaar</strong>
+            </div>
+            <div class="testimonial-item">
+                <p>"The team understood our business deeply. Our app went from concept to 50K users in 6 months."</p>
+                <strong>Vikram Singh, Founder - HealthTech Startup</strong>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-btn prev" id="prevBtn">❮</button>
+            <button class="carousel-btn next" id="nextBtn">❯</button>
+        </div>
     </section>
 
-    <section id="faq">
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
         <h2>Frequently Asked Questions</h2>
-        <div class="faq-item">
-            <h3>Question 1?</h3>
-            <p>Answer 1.</p>
-        </div>
-        <div class="faq-item">
-            <h3>Question 2?</h3>
-            <p>Answer 2.</p>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">What is Platform Sahayak?</button>
+                <div class="accordion-content">
+                    <p>Platform Sahayak is a WhatsApp-first automation solution designed for India's MSMEs. It solves cash flow and bookkeeping challenges by working directly in WhatsApp.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How does it help recover cash?</button>
+                <div class="accordion-content">
+                    <p>Platform Sahayak automates invoice tracking and payment reminders via WhatsApp, helping identify overdue invoices and typically reducing Days Sales Outstanding (DSO) by 10-20%.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">What about invoice discounting?</button>
+                <div class="accordion-content">
+                    <p>As businesses grow to our Pro tier with verified cashflow data, they unlock 1-Click Invoice Discounting through NBFC partnerships—without changing our SaaS pricing.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How is it priced?</button>
+                <div class="accordion-content">
+                    <p>We use outcome-based pricing tied to ROI. You pay based on measurable cash recovered and time saved—not feature count. Starter plans start at ₹5,000/month.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">What services do you offer?</button>
+                <div class="accordion-content">
+                    <p>We offer Web Development, Mobile App Development, Cloud Solutions, UI/UX Design, Software Consulting, and AI & Automation solutions.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">What's your project timeline?</button>
+                <div class="accordion-content">
+                    <p>MVPs typically launch in 8-12 weeks. Full-featured platforms in 16-24 weeks. We use agile methodology with bi-weekly demos and continuous feedback.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Let's Build Together</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Company Name" required>
+                <select required>
+                    <option value="">Select Service</option>
+                    <option value="web">Web Development</option>
+                    <option value="mobile">Mobile App Development</option>
+                    <option value="cloud">Cloud Solutions</option>
+                    <option value="design">UI/UX Design</option>
+                    <option value="consulting">Software Consulting</option>
+                    <option value="ai">AI & Automation</option>
+                    <option value="sahayak">Platform Sahayak Demo</option>
+                </select>
+                <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h4>Email</h4>
+                    <p><a href="mailto:hello@aarvix.tech">hello@aarvix.tech</a></p>
+                </div>
+                <div class="info-item">
+                    <h4>Phone</h4>
+                    <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                </div>
+                <div class="info-item">
+                    <h4>Location</h4>
+                    <p>Bangalore, India<br>(Serving clients globally)</p>
+                </div>
+                <div class="info-item">
+                    <h4>Hours</h4>
+                    <p>Mon-Fri: 9 AM - 6 PM IST<br>Sat: 10 AM - 4 PM IST</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 Aarvix Technologies. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>AARVIX Technologies</h4>
+                <p>Building innovative technology solutions for India's growing businesses.</p>
+            </div>
+            <div class="footer-section">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="#services">Web Development</a></li>
+                    <li><a href="#services">Mobile Apps</a></li>
+                    <li><a href="#services">Cloud Solutions</a></li>
+                    <li><a href="#services">AI & Automation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AARVIX Technologies. All rights reserved.</p>
+        </div>
     </footer>
+
+    <a href="#home" class="back-to-top" id="backToTop">↑</a>
+
+    <script src="script.js"></script>
 </body>
 </html>
