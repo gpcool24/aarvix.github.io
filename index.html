@@ -3,70 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aarvix Technologies</title>
+    <title>AARVIX - Your Platform for Premium Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <h1>Welcome to Aarvix Technologies</h1>
-        <p>Your partner for innovative tech solutions.</p>
-        <a href="#services">Explore Our Services</a>
+    <header id="header">
+        <h1>AARVIX</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#platform">Platform Sahayak</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
+    <section id="hero">
+        <h2>Your Success Starts Here</h2>
+        <p>Join us on a journey to success and excellence.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a premium service provider dedicated to helping you realize your goals.</p>
+    </section>
     <section id="services">
         <h2>Our Services</h2>
         <ul>
-            <li>Web Development</li>
-            <li>Mobile App Development</li>
-            <li>Cloud Solutions</li>
-            <li>Digital Marketing</li>
+            <li>Consulting</li>
+            <li>Project Management</li>
+            <li>Digital Transformation</li>
+            <li>Training and Support</li>
         </ul>
     </section>
-
-    <section id="products">
-        <h2>Our Products</h2>
-        <ul>
-            <li>Product A</li>
-            <li>Product B</li>
-            <li>Product C</li>
-        </ul>
+    <section id="platform">
+        <h2>Platform Sahayak</h2>
+        <p>Your reliable platform for innovative solutions.</p>
     </section>
-
     <section id="portfolio">
-        <h2>Our Portfolio</h2>
-        <div>
-            <img src="project1.jpg" alt="Project 1">
-            <img src="project2.jpg" alt="Project 2">
-            <img src="project3.jpg" alt="Project 3">
+        <h2>Portfolio</h2>
+        <div class="filter">
+            <button data-filter="all">All</button>
+            <button data-filter="web">Web</button>
+            <button data-filter="mobile">Mobile</button>
+        </div>
+        <div class="portfolio-items">
+            <div class="portfolio-item web">Web Project 1</div>
+            <div class="portfolio-item mobile">Mobile Project 1</div>
+            <div class="portfolio-item web">Web Project 2</div>
+            <div class="portfolio-item mobile">Mobile Project 2</div>
         </div>
     </section>
-
     <section id="testimonials">
-        <h2>Testimonials</h2>
-        <blockquote>
-            <p>"Aarvix Technologies transformed our business!" - Happy Customer</p>
-        </blockquote>
+        <h2>What Our Clients Say</h2>
+        <div class="carousel">
+            <div class="testimonial">"AARVIX transformed our business!"</div>
+            <div class="testimonial">"Amazing service and support!"</div>
+        </div>
     </section>
-
     <section id="faq">
-        <h2>Frequently Asked Questions</h2>
-        <h3>What services do you offer?</h3>
-        <p>We offer a range of tech solutions including web development and digital marketing.</p>
+        <h2>FAQs</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h3>What services do you offer?</h3>
+                <div class="accordion-content">
+                    <p>We offer a variety of services including consulting, project management, and more.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3>How can I contact you?</h3>
+                <div class="accordion-content">
+                    <p>You can fill out the contact form below or reach us via email.</p>
+                </div>
+            </div>
+        </div>
     </section>
-
     <section id="contact">
         <h2>Contact Us</h2>
         <form>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <input type="submit" value="Submit">
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
         </form>
     </section>
-
-    <footer>
-        <p>&copy; 2026 Aarvix Technologies. All rights reserved.</p>
+    <footer id="footer">
+        <p>&copy; 2026 AARVIX. All Rights Reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
