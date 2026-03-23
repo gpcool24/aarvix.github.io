@@ -7,8 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   
   return {
-    // 1. BASE PATH: Crucial for GitHub Pages
-    // Use '/' for username.github.io repos
+    // For username.github.io, base must be '/'
     base: '/', 
 
     plugins: [react(), tailwindcss()],
@@ -19,25 +18,18 @@ export default defineConfig(({ mode }) => {
 
     resolve: {
       alias: {
-        // Sets '@' to point to your root directory
         '@': path.resolve(__dirname, '.'),
       },
     },
 
     build: {
-      // 2. BUILD SETTINGS: Ensures clean output
       outDir: 'dist',
       assetsDir: 'assets',
-      sourcemap: false,
-      // Minification makes your site load faster in production
-      minify: 'terser',
+      emptyOutDir: true,
     },
 
     server: {
-      // HMR settings for your development environment
       hmr: process.env.DISABLE_HMR !== 'true',
-      port: 5173,
-      host: true,
     },
   };
 });
